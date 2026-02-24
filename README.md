@@ -5,44 +5,43 @@ Launching an EC2 Instance in Amazon Web Services
 
 Using AWS management console, I selected the virtual machine with ec2 instance I wanted which is a Linux machine through the wizard which helps guiding you through the initial setup process.
 
- ![Image](https://github.com/user-attachments/assets/acc1f093-3890-49b9-8146-c8c18bd676c4)
+<img width="965" height="176" alt="image" src="https://github.com/user-attachments/assets/d3faccc9-81d5-4c40-8b4a-2b60a4f0e348" />
 
 Picked the default instances type which was the General Purpose which is free to use, adding 20GB to it, and tags.
  
-![Image](https://github.com/user-attachments/assets/54a7eeb1-82dc-4010-98c4-878d56b6745b)
+<img width="934" height="222" alt="image" src="https://github.com/user-attachments/assets/ceebbe12-f025-4a12-896d-33dd3eb97b35" />
  
-![Image](https://github.com/user-attachments/assets/b45fa31e-f6a3-4f80-893e-514fbe0ca4f3)
+<img width="873" height="291" alt="image" src="https://github.com/user-attachments/assets/622fe6cd-367d-453f-8766-cca4bd56abc1" />
 
-![Image](https://github.com/user-attachments/assets/a9532b3a-0990-4d86-893c-ba5576843402)
  
 For my security group I selected SSH connections with any source then I would review my settings from what I created. I need a keypair in order to enter my instances that’s where the keypair comes into play.
 
-![Image](https://github.com/user-attachments/assets/b94260b7-4805-4efc-853e-b3a013bad9ab)
+<img width="570" height="353" alt="image" src="https://github.com/user-attachments/assets/404b3e45-0fe4-42ca-ae1a-f2a8e2ab901f" />
 
 I wasn’t aware at first until I used amazon guide pages to help create one.
 
- ![Image](https://github.com/user-attachments/assets/abac3688-0a7a-4a88-be21-dc6e004518a8)
+<img width="975" height="281" alt="image" src="https://github.com/user-attachments/assets/a8adc064-364d-4c42-b84c-48aeecaec284" />
 
- ![Image](https://github.com/user-attachments/assets/ec9c3e8e-dac3-40af-afad-65db67a2b1a5)
+<img width="493" height="434" alt="image" src="https://github.com/user-attachments/assets/babe8535-d23b-4330-8ae9-cadbbda4e022" />
 
 Now here I connected to my instances with a tool called PuTTY which I could use SSH protocols.
 
-![Image](https://github.com/user-attachments/assets/a0e042d6-9d65-4c85-b9f3-b2f45aed8c23)
+<img width="583" height="108" alt="image" src="https://github.com/user-attachments/assets/ad08a13c-d91c-4edd-8bdc-3c5de7a7c268" />
  
 PuTTY doesn’t natively support the private key format (.pem) generated from amazon EC2 that we downloaded, so we going to use puttygen to convert the AWS key to a .ppk format which is required from putty. This is a must!!
 
- ![Image](https://github.com/user-attachments/assets/daa5116e-62aa-40b1-86d1-92c620aa4db9)
+<img width="634" height="244" alt="image" src="https://github.com/user-attachments/assets/8be204e4-7307-45b6-9253-34e7cd17d16f" />
  
 I uploaded the key file from my computer that I downloaded and loaded it into the generator.
 
- ![Image](https://github.com/user-attachments/assets/3d75cfb4-c4d3-4db8-bb1e-310371d8369f)
+<img width="444" height="577" alt="image" src="https://github.com/user-attachments/assets/96720815-cccc-4442-af06-30045291a3ba" />
 
- ![Image](https://github.com/user-attachments/assets/52ea8a7a-6cb0-4d38-8f27-4df4972984ec)
+<img width="429" height="308" alt="image" src="https://github.com/user-attachments/assets/38295d2f-f272-41dc-bab5-2663d0c7dc24" />
 
 I got an alert the first time I connected to the instances from the machine but after it’s normal to just start without any alerts.
 
- ![Image](https://github.com/user-attachments/assets/dcb8276a-ea6f-4066-ad4f-509d8f811edb)
+<img width="430" height="309" alt="image" src="https://github.com/user-attachments/assets/7b356d66-ac94-4eb0-8abe-be26a7b70071" />
 
 The username for my newly created instances is ec2-user which is default.
 
- ![Image](https://github.com/user-attachments/assets/2bbbd2a3-577b-4b58-b222-ecd0f00f9da3)
+<img width="502" height="427" alt="image" src="https://github.com/user-attachments/assets/eb7648b5-7b1b-4ea6-baf1-046c4e72172e" />

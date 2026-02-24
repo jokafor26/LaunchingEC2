@@ -36,8 +36,6 @@ I uploaded the key file from my computer that I downloaded and loaded it into th
 
 <img width="444" height="577" alt="image" src="https://github.com/user-attachments/assets/96720815-cccc-4442-af06-30045291a3ba" />
 
-<img width="429" height="308" alt="image" src="https://github.com/user-attachments/assets/38295d2f-f272-41dc-bab5-2663d0c7dc24" />
-
 I got an alert the first time I connected to the instances from the machine but after it’s normal to just start without any alerts.
 
 <img width="430" height="309" alt="image" src="https://github.com/user-attachments/assets/7b356d66-ac94-4eb0-8abe-be26a7b70071" />
